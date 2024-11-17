@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background: rgb(44, 44, 44);
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px darkred;
+    padding: 20px;
+    font-size: 32px;
+    color: darkred;
+}
+
+section {
+    background: rgb(44, 44, 44);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 17px;
+}
+
+img {
+    height: 200px;
+    padding: 20px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+}
